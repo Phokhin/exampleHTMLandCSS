@@ -74,7 +74,7 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 0px 24px 24px 0px;
-  backdrop-filter: blur(24px);
+  backdrop-filter: blur(6px);
 }
 .signin-welcome {
   position: absolute;
@@ -96,6 +96,9 @@ body {
   position: absolute;
 }
 .rubberring2 {
+  margin-top: 640px;
+  margin-left: 869px;
+  position: absolute;
   width: 212px;
   height: 205px;
 }
@@ -133,6 +136,7 @@ body {
   width: 358px;
   height: 40px;
   padding-left: 44px;
+  padding-right: 56px;
   display: inline-block;
   margin: 8px;
 
@@ -149,15 +153,19 @@ body {
   border: 1px solid #3949AB;
 }
 .buttonShort{
+  margin: 4px;
+  display: flex;
   height: 40px;
   width: 175px;
   text-decoration: none;
-  display: inline-block;
   text-align: center;
   border-radius: 40px;
   border: 1px solid #3949AB;
   background-color: white;
   color: #3949ab;
+  align-items: center;
+  align-self: center;
+  
   
 }
 .dividingLine{
