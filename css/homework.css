@@ -74,7 +74,7 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 0px 24px 24px 0px;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(24px);
 }
 .signin-welcome {
   position: absolute;
@@ -96,7 +96,7 @@ body {
   position: absolute;
 }
 .rubberring2 {
-  margin-top: 640px;
+  margin-top: 656px;
   margin-left: 869px;
   position: absolute;
   width: 212px;
