@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Sign in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/homework.css" />
     <script
       src="https://kit.fontawesome.com/4428cfe6ca.js"
@@ -11,50 +12,47 @@
 
   <body>
     <div class="box-signin">
-      <div class="signin-welcome">
-        <img src="../img/spacelogo.svg" alt="SpecLogo" class="SpecLogo" />
+      <div class="welcome">
+          <img src="../img/spacelogo.svg" alt="SpecLogo" class="logo" />
         <img
           src="../img/rubberring.png"
           alt="rubberring1"
           class="rubberring1"
         />
         <img src="../img/spaceman.png" alt="spaceman" class="spaceman" />
-
-        <div class="titleSignin fontTitle" style="margin-top: 48px">
+        <div class="title-welcome fontTitle" style="margin-top: 48px">
           Welcome aboard my friend
         </div>
-
-        <div class="titleSignin fontSmall">
+        <div class="title-welcome fontSmall">
           just a couple of clicks and we start
         </div>
         <img src="../img/pager.png" alt="pager" class="pager" />
       </div>
-      <img src="../img/rubberring.png" alt="rubberring2" class="rubberring2" />
-      <div class="signin-form"></div>
-      <div class="signin-form">
-        <p class="fontTitle" style="margin-top: 128px; margin-bottom: 40px">
+      <div class="form">
+        <div class="top-box">
+          <img src="../img/spacelogo.svg" alt="SpecLogo" class="logo-from" />
+        </div>
+        <p class="fontTitle position-welcome" style="margin-top: 31px; margin-bottom: 40px">
           Welcome
         </p>
-
         <div class="fontrelative">
           <input class="fillInput" placeholder="Email" />
           <i class="far fa-envelope"></i>
         </div>
         <div class="fontrelative">
           <input class="fillInput" placeholder="Password" />
-          <i
-            class="fas fa-lock"
-            style="font-size: 20px; left: 24px; top: 18px"
-          ></i>
-          <i class="far fa-eye" style="left: auto; right: 24px"></i>
+          <i class="fas fa-lock"></i>
+          <i class="far fa-eye" style="left: auto; right: 15%"></i>
         </div>
+
         <a
           href="#"
           class="fontSmall"
           style="
             color: #6f74dd;
             margin-top: 8px;
-            margin-left: 248px;
+            margin-right: 13%;
+            margin-left: auto;
             text-decoration: none;
           "
         >
@@ -68,38 +66,79 @@
           Log in
         </button>
 
-        <div style="display: inline-block">
-          <div class="dividingLine" style="display: inline-block"></div>
-          <p class="fontSmall" style="display: inline-block; margin: 16px 0">
-            or
-          </p>
-          <div class="dividingLine" style="display: inline-block"></div>
-        </div>
-
-        <div style="display: inline-flex; width: 358px">
-          <button
-            class="buttonShort"
-            style="padding-left: 45px; padding-right: 45px"
-          >
-            <img src="../img/Google.png" style="margin-right: 8px" />
-            <span>Google</span>
-          </button>
-          <button
-            class="buttonShort"
-            style="padding-left: 48px; padding-right: 48px"
-          >
-            <img src="../img/gitlab.png" style="margin-right: 8px" /><span
-              >GitLab</span
-            >
-          </button>
-        </div>
-        <p class="fontSmall" style="margin-top: 24px">Have no account yet?</p>
-        <button
-          class="buttonLong"
-          style="margin-top: 16px; color: #3949ab; background-color: white"
+        <div
+          style="
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+          "
         >
-          Registration
-        </button>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              width: 45%;
+              height: auto;
+              margin-left: auto;
+              margin-right: auto;
+            "
+          >
+            <div class="dividingLine"></div>
+            <p class="fontSmall">or</p>
+            <div class="dividingLine"></div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              width: 74%;
+              height: auto;
+              margin-left: auto;
+              margin-right: auto;
+            "
+          >
+            <button class="buttonShort" style="margin-right: 4px">
+              <img
+                src="../img/Google.png"
+                style="margin-right: 8px; margin-left: auto"
+              />
+              <span style="margin-right: auto">Google</span>
+            </button>
+
+            <button class="buttonShort" style="margin-left: 4px">
+              <img
+                src="../img/gitlab.png"
+                style="margin-right: 8px; margin-left: auto"
+              />
+              <span style="margin-right: auto">GitLab</span>
+            </button>
+          </div>
+          <p
+            class="fontSmall"
+            style="
+              margin-top: 24px;
+              margin-left: auto;
+              margin-right: auto;
+              display: flex;
+            "
+          >
+            Have no account yet?
+          </p>
+          <button
+            class="buttonLong"
+            style="
+              margin-top: 16px;
+              color: #3949ab;
+              background-color: white;
+              margin-left: auto;
+              margin-right: auto;
+            "
+          >
+            Registration
+          </button>
+        </div>
+        
       </div>
     </div>
   </body>
